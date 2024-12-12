@@ -15,6 +15,10 @@ body {
   min-height: 100vh; /* Ensures the body takes full viewport height */
 }
 
+.hello {
+  text-align: center;
+  color: green;
+}
 /* Main content should take available space */
 main {
   flex: 1;
@@ -104,7 +108,7 @@ nav ul li a:hover {
 }
 
 .hero .cta:hover {
-  background-color: #00796b;
+  background-color: black;
   color: white;
 }
 
