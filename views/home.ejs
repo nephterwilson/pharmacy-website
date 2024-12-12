@@ -1,0 +1,36 @@
+<%- include('partials/header') %> <!-- Correct syntax for including header -->
+
+<main>
+ <!-- Hero Section -->
+<section class="hero" aria-label="Welcome to Our Pharmacy" id="hero">
+  <h1>Welcome to Your Trusted Pharmacy</h1>
+  <p>Find medicines, health tips, and expert advice all in one place.</p>
+  <a href="/product-catalog" class="cta" aria-label="Explore our products">Explore Our Products</a>
+  
+</section>
+
+<script>
+  // Set dynamic background image
+  const hero = document.getElementById('hero');
+  const dynamicImageUrl = './images/banner.jpeg';  // Replace this with your dynamic image URL
+  hero.style.backgroundImage = `url(${dynamicImageUrl})`;
+</script>
+
+  <!-- Categories Section -->
+  <section class="categories" aria-label="Shop by Category">
+    <h2>Our Services</h2>
+    <div class="category-list">
+      <div class="category">
+        <h3>Medicines</h3>
+      </div>
+      <div class="category">
+        <h3>Health Supplements</h3>
+      </div>
+      <div class="category">
+        <h3>Personal Care</h3>
+      </div>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %> <!-- Correct syntax for including footer -->
