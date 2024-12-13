@@ -87,6 +87,12 @@ nav ul li a:hover {
   margin-bottom: 40px;
 }
 
+.hero {
+  p {
+    color: darkorange;
+  }
+}
+
 .hero h1 {
   font-size: 3rem;
 }
